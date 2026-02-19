@@ -1,0 +1,27 @@
+{
+  "name": "mpesa-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annwanjikumacharia32-cpu/mpesa-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/annwanjikumacharia32-cpu/mpesa-test/issues"
+  },
+  "homepage": "https://github.com/annwanjikumacharia32-cpu/mpesa-test#readme",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "moment": "^2.30.1"
+  }
+}
