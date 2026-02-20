@@ -31,7 +31,7 @@ async function generateToken() {
     }
 }
 
-/* Trigger STK Push */
+/* Trigger STK_Push */
 app.get('/stk', async (req, res) => {
     const timestamp = moment().format('YYYYMMDDHHmmss');
     const password = Buffer.from(shortCode + passkey + timestamp).toString('base64');
